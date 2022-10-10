@@ -2,7 +2,6 @@
     application:
         name: config-server
     datasource:
-        password: employee
         url: jdbc:oracle:thin:@localhost:1521:xe
         username: employee
     jpa:
