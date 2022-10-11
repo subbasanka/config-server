@@ -16,3 +16,9 @@
     mvc:
         pathmatch:
             matching-strategy: ANT_PATH_MATCHER
+    cloud:
+        config:
+            server:
+                git:
+                    default-label: main
+                    clone-on-start: true
